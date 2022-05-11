@@ -9,41 +9,41 @@
   },
   "text": {
     "more": "Heck",
-    "intro": "heck",
+    "intro": "Welcome to the network graph of the <a href='https://aesthetics.fandom.com/'>Aesthetic Fandom Wiki.</a> This data was scrapped 04/30/2022. Please email hramire5@pratt.edu if you have any questions, suggestions, or concerns!",
     "title": "Aesthetic Wiki"
   },
   "legend": {
-    "edgeLabel": "Listed as Related",
+    "edgeLabel": "Listed as Related on the Wiki",
     "colorLabel": "Modularity class",
-    "nodeLabel": "Aesthetics"
+    "nodeLabel": "Aesthetic"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": false,
+    "groupSelectorAttribute": true,
     "hoverBehavior": "dim"
   },
   "informationPanel": {
-    "groupByEdgeDirection": false,
+    "groupByEdgeDirection": true,
     "imageAttribute": false
   },
   "sigma": {
     "drawingProperties": {
-      "defaultEdgeType": "curve",
+      "defaultEdgeType": "straight",
       "defaultHoverLabelBGColor": "#002147",
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
-      "defaultLabelColor": "#000",
-      "labelThreshold": 10,
+      "defaultLabelColor": "#FFF",
+      "labelThreshold": 11,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 14
+      "defaultLabelSize": 10
     },
     "graphProperties": {
       "maxEdgeSize": 0.5,
-      "minEdgeSize": 0.2,
+      "minEdgeSize": 0.5,
       "minNodeSize": 1,
-      "maxNodeSize": 7
+      "maxNodeSize": 20
     },
     "mouseProperties": {
       "maxRatio": 20,
